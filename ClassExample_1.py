@@ -1,14 +1,41 @@
+class student:
 
-class test:
-	def __init__(self):
-		print("construction exection")
+	def __init__(self,name,age,marks):
 
-	def m1(self):
-		print("method executed")
+		self.name = name
+		self.age = age
+		self.marks = marks
 
-t1 = test()
-t2 = test()
-t3 = test()
 
-t1.m1()
+	def talk(self):
+
+		print("The name of student is {}\n, his age and marks are {}\n {} ".format(self.name,self.age,self.marks))
+
+
+t1 = student("Durga",50,90)
+t1.talk()
+t2 = student("Ram",30,95)
+t2.talk()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
