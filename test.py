@@ -1,18 +1,11 @@
-class student:
+class employee:
+	def __init__(self):
 
-	def __init__(self, x, y, z):
-
-		self.name = x
-		self.age = y
-		self.prof = z
-
-	def display(self):
-
-		print('The candidate name is {}, age {}, and prof {}'.format(self.name,self.age, self.prof))
+		self.Ename = 'Durga'
+		self.esalary = 10000
+		self.eno = 100
 
 
-t = student('Durga',40, 'Teaching')
-t.display()
+e = employee()
+print(e.__dict__)
 
-t = student('sunny','34','Dance')
-t.display()
