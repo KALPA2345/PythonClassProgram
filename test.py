@@ -11,5 +11,8 @@ class employee:
 
 e = employee()
 e.display()
+
+e.e = 700
+
 print(e.__dict__)
 
