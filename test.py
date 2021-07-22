@@ -5,10 +5,11 @@ class employee:
 		self.b = 10000
 		self.c = 100
 
-	def display():
+	def display(self):
 		self.d = 500
 
 
 e = employee()
+# e.display()
 print(e.__dict__)
 
