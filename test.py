@@ -10,6 +10,6 @@ class employee:
 
 
 e = employee()
-# e.display()
+e.display()
 print(e.__dict__)
 
