@@ -1,23 +1,15 @@
 class test:
 	def __init__(self):
+	
+		self.a = 10000
+		self.b = 100
 
-		self.a = 'Durga'
-		self.b = 10000
-		self.c = 100
-		self.d = 5
+t1 = test()
 
-	def m1(self):
-		del self.d
+t1.a = 5
+t1.b = 19
 
+t2 = test()
 
-t = test()
-
-print(t.__dict__)
-
-t.m1()
-
-print(t.__dict__)
-
-del t.c
-
-print(t.__dict__)
+print('t1=',t1.a, t1.b)
+print('t2=',t2.a, t2.b)
