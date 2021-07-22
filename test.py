@@ -1,9 +1,12 @@
 class employee:
 	def __init__(self):
 
-		self.Ename = 'Durga'
-		self.esalary = 10000
-		self.eno = 100
+		self.a = 'Durga'
+		self.b = 10000
+		self.c = 100
+
+	def display():
+		self.d = 500
 
 
 e = employee()
